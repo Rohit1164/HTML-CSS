@@ -1,0 +1,38 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  padding: 50px;
+  height: 100%;
+  width: 800px;
+  background-color: rgb(149, 184, 250);
+  border: 20px solid rgb(2, 2, 69);
+}
+
+img {
+  height: 400px;
+  width: 300px;
+  border-radius: 30%;
+}
+
+.sectionOne {
+  display: flex;
+}
+
+.sectionOne h1 {
+  margin-top: 250px;
+  margin-left: 150px;
+}
+
+.sectionOne h2 {
+  margin-left: 200px;
+}
+
+.bottom p {
+  margin-left: 380px;
+}
+
+.Unkownlink {
+  margin-left: 180px;
+}
