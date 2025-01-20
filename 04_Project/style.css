@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+header{
+  opacity: 85%;
+  color: white;
+  background-color: black;
+}
+.Logo img{
+  height: 30px;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar{ 
+  padding: 16px 30px;
+}
+.navItem{
+  display: flex;
+  justify-content: space-evenly;
+}
+.navItem li
+{
+  font-size: larger;
+  list-style: none;
+}
+.sectionOne{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./Img/home.jpg");
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sectionOne h1{
+  letter-spacing :5px;
+  font-size: 100px;
+  color: white;
+}
+ h1 span{
+  font-size: 50px;
+  color: white;
+}
+.sectionTwo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background: #1b1a1a;
+}
+.sectionTwo h1{
+  letter-spacing :10px;
+  color: white;
+  font-size: 70px;
+}
+.sectionTwo h1 span{
+  font-size: 100px;
+  color: white;
+}
+.sectionThree{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cartItem{
+  width: 400px;
+  height: 600px;
+  margin: 100px 50px;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+.card img{
+  width: 100%;
+  height: 300px;
+  border-top-right-radius: 10px;
+  border-top-left-radius:10px ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text h1{
+  opacity: 70%;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+.text p{
+  opacity: 70%;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectionFour{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  letter-spacing: 2px;
+}
+.sectionFour .left{
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+  color: white;
+  background-color: rgb(8, 44, 8);
+}
+.sectionFour .left h1{
+  font-size: 70px;
+  font-family: cursive;
+}
+.sectionFour .left p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 30px;
+}
+
+.sectionFour #right{
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+  background-color: rgb(14, 14, 71);
+}
+.sectionFive{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  padding-top: 80px;
+  background: #1b1a1a;
+}
+.sectionFive h1{
+  letter-spacing :3px;
+  color: white;
+  font-size: 30px;
+}
