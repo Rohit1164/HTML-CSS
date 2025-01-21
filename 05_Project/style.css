@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.logo {
+  display: flex;
+  background-color: #333;
+  padding: 6px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  }
+
+.logo p {
+  font-family: fantasy;
+  font-size: xx-large;
+  padding-left: 10px;
+  font-weight: 500;
+  color: lawngreen;
+  }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+  }
+
+.navbar .menubar {
+  display: flex;
+  gap: 15px;
+  }
+
+.navbar .menubar a {
+  letter-spacing: 2px;
+  font-family: fantasy;
+  font-size: larger;
+  font-weight: 500;
+  text-decoration: none;
+  color: lawngreen;
+  padding: 5px 10px;
+  margin-right: 170px;
+  transition: background-color 0.3s;
+  }
+
+.navbar .menubar input {
+  border: none;
+  width: 220px;
+  border-radius: 8px;
+  }
+
+.navbar .menubar button {
+  border: none;
+  color: green;
+  background-color: lawngreen;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 5px 10px;
+  border-radius: 8px;
+  }
+
+.navbar .menubar button:hover {
+  color: lawngreen;
+  transition: 0.8s;
+  background-color: green;
+  }
+
+
+.navbar .menubar a:hover {
+  color: lightgreen;
+  transition: 1s;
+  border-radius: 5px;
+  }
+
+.navbar .response {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  }
+
+.navbar .response div {
+  width: 25px;
+  height: 3px;
+  background-color: blanchedalmond;
+  }
+
+.One{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.left{
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left .homeImage{
+  padding-top: 60px;
+  border-radius: 50%;
+  height: 600px;
+  background-color: gray;
+}
+.left .homeImage img{
+  width: 512px;
+  height: 514px;
+}
+
+.right {
+  width: 50%;
+  height: 100vh;
+  padding-top: 12%;
+  font-weight: 400;
+}
+
+.right .firstBtn{
+  width: 250px;
+  height: 50px;
+  border: none;
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: large;
+  padding: 5px 10px;
+  background-color: green;
+}
+.right h1{
+
+  font-size: 70px;
+}
+.right .secondBtn{
+  width: 250px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  font-size: large;
+  margin-top: 30px;
+  padding: 5px 10px;
+  background-color:rgb(237, 193, 131);
+}
+
+.Two{
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Two .discountVoucher{
+  display: flex;
+}
+.VoucherTitle{
+  margin-left: 10px;
+  width: 200px;
+}
+.Two .healthyFood{
+  display: flex;
+}
+.healthyFoodTitle{
+  margin-left: 10px;
+  width: 250px;
+}
+.Two .homeDelivery{
+  display: flex;
+}
+.homeDeliveryTitle{
+  margin-left: 10px;
+  width: 250px;
+}
+.Two h1{
+font-size: large;
+}
+
+.Three{
+  width: 100%;
+  height: 100%;
+}
+.Three .menuBtn{
+  display: grid;
+  justify-content: center;
+}
+.Three .menuBtn button{
+  margin-top: 70px;
+  margin-left: 40px;
+  font-size: large;
+  border: none;
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: green;
+}
+.Three .menuBtn h1{
+  font-size: xx-large;
+  font-weight: 300;
+  margin-top: 30px;
+}
+.foodmenu{
+  margin: 8%;
+  width: 85%;
+  height: 100%;
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: repeat(3,1fr);
+
+}
+.foodmenu img{
+  height: 350px;
+}
+
+.Three button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  margin-left: 45%;
+  margin-bottom: 50px;
+  color: #fff;
+  font-size: large;
+  padding: 5px 10px;
+  background-color: green;
+}
+.footer {
+  width: 100%;
+  height: 40vh;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(243, 224, 201);
+}
+.footerIcon{
+  margin-top: 40px;
+}
+.footer .mainLinks{
+  opacity: 60%;
+
+}
+.footer .mainLinks p{
+  font-weight: 600;
+  font-size: larger;
+}
+.footer .mainLinks ul li{
+  padding: 7px;
+  list-style: none;
+}
+.footer .support{
+  opacity: 60%;
+
+}
+.footer .support p{
+  font-weight: 600;
+  font-size: larger;
+}
+.footer .support ul li{
+  padding: 7px;
+  list-style: none;
+}
+.footer .Newsletter {
+  opacity: 60%;
+}
+.footer .Newsletter p{
+  font-weight: 600;
+  font-size: larger;
+}
+.footer .Newsletter ul{
+  padding: 7px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer input{
+  margin-top: 8px;
+  margin-bottom: 9px;
+}
+.footer .Newsletter ul li{
+padding: 7px;
+  list-style: none;
+}
+
+
+@media(max-width:768px) {
+  .navbar .menubar {
+    display: none;
+    flex-direction: column;
+    background-color: green;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 150px;
+    background-repeat: 5px;
+  }
+
+  .navbar .menubar.active {
+    display: flex;
+  }
+
+  .navbar .response {
+    display: flex;
+  }
+  .navbar .menubar input{
+    height: 30px;
+    width: 130px;
+    margin-left: 10px;
+  }
+  .navbar .menubar button{
+    width: 130px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .One {
+    height: 100%;
+    display: grid;
+    margin-left: 23%;
+    justify-content: center;
+  }
+  .Two {
+    height: 100%;
+    display: grid;
+    margin-left: 23%;
+    justify-content: center;
+  }
+  .Two .discountVoucher{
+margin: 10%;
+  }
+  .Two .healthyFood{
+    margin: 10%;
+  }
+  .Two .homeDelivery{
+    margin: 10%;
+  }
+  .footer{
+    height: 100%;
+    display: grid;
+  }
+  .footer .logo{
+    margin-bottom: 5%;
+  }
+  .footer .mainLinks{
+    padding: 40px;
+    margin-bottom: 5%;
+  }
+  .footer .support{
+    padding: 40px;
+    margin-bottom: 5%;
+  }
+  .footer .Newsletter{
+    padding: 40px;
+    margin-bottom: 5%;
+  }
+  .foodmenu{
+    height: 100%;
+    display: grid;
+  }
+}
