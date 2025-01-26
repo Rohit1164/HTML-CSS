@@ -1,0 +1,42 @@
+    h1 {
+      text-align: center;
+    }
+
+    ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    ul li {
+      list-style: none;
+    }
+
+    li {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .role {
+      text-align: center;
+    }
+
+    table tbody tr td {
+      border: 2px solid black;
+      height: 100%;
+    }
+
+    table tr td:nth-child(1) {
+      width: 400px;
+    }
+
+    td {
+      padding: 20px;
+    }
+
+    table tr td:nth-child(2) {
+      width: 900px;
+    }
+
+    table tr td:nth-child(3) {
+      width: 200px;
+    }
